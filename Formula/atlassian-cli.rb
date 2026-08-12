@@ -6,10 +6,7 @@ class AtlassianCli < Formula
 
   on_macos do
     url "https://github.com/infinitezerone/atlassian-cli/releases/download/v#{version}/atlassian-cli-aarch64-apple-darwin.tar.gz"
-  end
-
-  on_linux do
-    url "https://github.com/infinitezerone/atlassian-cli/releases/download/v#{version}/atlassian-cli-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "ddabb26a0a53b0a23e34deec5f750b997ff1fd370e82f41d6fe3bef331fe79c0"
   end
 
   def install
