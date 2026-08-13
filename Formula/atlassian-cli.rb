@@ -1,12 +1,12 @@
 class AtlassianCli < Formula
   desc "Unified AI-native CLI for Atlassian (Jira + Confluence + Bitbucket)"
   homepage "https://github.com/infinitezerone/atlassian-cli"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     url "https://github.com/infinitezerone/atlassian-cli/releases/download/v#{version}/atlassian-cli-aarch64-apple-darwin.tar.gz"
-    sha256 "45273712836101e304f6818db3240fa11ec9bff8db98ce3394216563dcc6eff5"
+    sha256 "ab106f5ae26b6cb998504112b68ca0ff7fb5c7054aa6164bc641fd6d86120a0d"
   end
 
   on_linux do
@@ -23,8 +23,11 @@ class AtlassianCli < Formula
       若要在当前终端窗口立即使用，请运行:
         exec $SHELL   (或直接打开一个新的终端窗口)
 
-      👉 接下来运行以下命令完成接入配置:
+      👉 运行以下命令完成接入配置:
         atlassian-cli login
+
+      🤖 运行以下命令一键部署官方 AI Agent Skill:
+        atlassian-cli skill install
     EOS
   end
 
