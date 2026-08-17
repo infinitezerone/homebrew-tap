@@ -1,12 +1,12 @@
 class AtlassianCli < Formula
   desc "Unified AI-native CLI for Atlassian (Jira + Confluence + Bitbucket)"
   homepage "https://github.com/infinitezerone/atlassian-cli"
-  version "0.2.4"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     url "https://github.com/infinitezerone/atlassian-cli/releases/download/v#{version}/atlassian-cli-aarch64-apple-darwin.tar.gz"
-    sha256 "f2b93b3e75e8ddc022fb011791e061c87eb487085219fb3ec864bb1ba7875f5a"
+    sha256 "3dabd31d1d5a495a06b261aaf00933a34eda3ffa97647e92c11be7b707cb070f"
   end
 
   on_linux do
